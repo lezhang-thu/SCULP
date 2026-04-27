@@ -1,0 +1,91 @@
+EventId,EventTemplate
+s1,nohup: ignoring input
+s10,probe sleep jar: <*>
+s11,please set <*> and <*> manually
+s12,<*>: line <*>: .: filename argument required
+s13,start <*> bench
+s14,hdfs rm -r: <*> --config <*> fs -rm -r -skipTrash <*>
+s15,Deleted <*>
+s16,Submit MapReduce Job: <*> --config <*> jar <*> HiBench.DataGen -t <*> -b <*> -n <*> -m <*> -r <*> -p <*> -class <*> -o sequence
+s17,Total input files to process : <*>
+s18,"Created token for <*>: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*> on <*>"
+s19,Getting new token from <*> renewer:<*>
+s2,====== Start obtain and cache Kerberos ticket-granting ticket ======
+s21,"New token received: (Kind: <*> Service: <*> Ident: (kms-dt owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>))"
+s22,"Got dt for <*>; Kind: <*> Service: <*> Ident: (<*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>)"
+s23,Disabling Erasure Coding for path: <*>
+s24,Generating <*> data files...
+s25,number of splits:<*>
+s26,Submitting tokens for job: <*>
+s27,"Executing with tokens: [Kind: <*> Service: <*> Ident: (token for team7: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>), Kind: kms-dt, Service: <*> Ident: (kms-dt owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>)]"
+s28,found resource <*> at <*>
+s29,Timeline service address: <*>
+s3,Password for <*>:
+s30,Submitted application <*>
+s31,The url to track the job: <*>
+s32,Running job: <*>
+s33,Job <*> running in uber mode : <*>
+s34,map <*> reduce <*>
+s35,Job <*> completed successfully
+s36,finish <*> bench
+s37,Start changing mapper and reducer ...
+s38,====================Start execute hibench datasize: <*> mapper: <*> reducer: <*> ======================
+s39,Running <*> test ...
+s4,==================== Start execute hibench test ======================
+s40,hdfs du -s: <*> --config <*> fs -du -s <*>
+s41,starting
+s43,Spent <*> computing base-splits.
+s44,Spent <*> computing TeraScheduler splits.
+s45,Computing input splits took <*>
+s46,Sampling <*> splits of <*>
+s47,Making <*> from <*> sampled records
+s48,Computing parititions took <*>
+s49,Spent <*> computing partitions.
+s5,mkdir: cannot create directory <*>: File exists
+s50,top: failed tty get
+s51,Creating dummy file <*> with <*> slots...
+s52,curIndex: <*> total: <*>
+s53,creating bayes text data ...
+s54,Running Job: Create <*>
+s55,<*> file <*> as <*>
+s56,Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s57,Finished Running Job: Create <*>
+s58,Creating PageRank links
+s59,Export env: <*>
+s6,Start changing datasize ...
+s60,MAHOUT_LOCAL is not set; adding HADOOP_CONF_DIR to classpath.
+s61,"Running on hadoop, using <*> and HADOOP_CONF_DIR=<*>"
+s62,MAHOUT-JOB: <*>
+s63,Maximum n-gram size is: <*>
+s64,Minimum LLR value: <*>
+s65,Number of reduce tasks: <*>
+s66,Tokenizing documents in <*>
+s67,"<*> is deprecated. Instead, use <*>"
+s68,Creating Term Frequency Vectors
+s69,Creating dictionary from <*> and saving at <*>
+s7,Creating <*> data ...
+s70,Job <*> failed with state FAILED due to: Task failed <*>
+s71,Job failed as tasks failed. failedMaps:<*> failedReduces:<*> killedMaps:<*> killedReduces: <*>
+s72,"No <*> found on classpath, will use command-line arguments only"
+s73,Command line arguments: <*>
+s74,rm: <*>: No such file or directory
+s75,-----===[PEGASUS: A Peta-Scale Graph Mining System]===-----
+s76,[PEGASUS] Computing PageRank. Max iteration = <*> threshold = <*> cur_iteration=<*>
+s77,Creating initial pagerank vectors...........
+s78,Program took <*> ms (Minutes: <*>)
+s79,Iteration = <*> changed reducer = <*>
+s8,patching args=<*>
+s80,[PEGASUS] PageRank computed.
+s81,[PEGASUS] The final PageRanks are in the HDFS pr_vector.
+s82,Deleting <*>
+s83,Calculating IDF
+s84,Pruning
+s85,Submit MapReduce Job: <*> --config <*> jar <*> terasort -D mapreduce.job.reduces=<*> -D mapreduce.job.queuename=<*> <*>
+s86,Submit MapReduce Job: <*> --config <*> jar <*> HiBench.DataGen -t <*> -b <*> -n <*> -m <*> -r <*> -p <*> -pbalance <*> -o <*>
+s87,Submit MapReduce Job: <*> --config <*> jar <*> teragen -D mapreduce.job.maps=<*> -D mapreduce.job.reduces=<*> -D mapreduce.job.queuename=<*> <*>
+s88,Submit MapReduce Job: <*> --config <*> jar <*> pegasus.PagerankNaive <*> nosym new
+s89,"Got dt for <*>; Kind: <*> Service: <*> Ident: (token for team7: <*> owner=<*>, renewer=<*>, realUser=<*>, issueDate=<*>, maxDate=<*>, sequenceNumber=<*>, masterKeyId=<*>)"
+s9,Parsing conf: <*>
+s90,done
+s91,Closing <*> data generator...
+s92,Creating PageRank nodes...

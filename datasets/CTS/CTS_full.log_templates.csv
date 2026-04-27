@@ -1,0 +1,94 @@
+EventId,EventTemplate
+s1,Process=<*>
+s10,patching args=<*>
+s11,quit
+s12,quit
+s13,display clock
+s14,display version
+s15,display device
+s16,display license
+s17,display patch verbose
+s18,display module-information
+s19,display startup
+s2,====== Start Process ======
+s20,system
+s21,diagnose
+s22,commit
+s23,commit
+s24,display data-channel
+s25,display data-channel
+s26,display ptn-mode
+s27,display vrcb
+s28,return
+s29,return
+s3,Password for <*>
+s30,display slot <*> chipisolate state
+s31,display slot <*> chipisolate state
+s32,display anti-theft status
+s33,version = <*>
+s34,vrp_version = <*>
+s35,ne_type = <*>
+s36,ipn = <*>
+s37,display access-user
+s38,please set <*> and <*> manually
+s39,<*>: line <*>: filename argument required
+s4,==================== Start execute CPTS test ======================
+s40,nohup: ignoring input
+s41,mkdir: cannot create directory '<*>': File exists
+s42,display ipv6 prefix
+s43,display ip pool
+s44,cd/
+s45,cd/
+s46,pwd
+s47,pwd
+s48,system-view
+s49,display commit list
+s5,file_path=======<*>
+s50,Parsing conf: <*>
+s51,dir <*>
+s52,clear configuration commit label begin_rollback
+s53,rollback confuguration to file <*>
+s54,Warning: This operation will revert configuration changes to the file <*> Continue? [Y/N]:
+s55,Y
+s56,N
+s57,display configuration rollback result
+s58,Job <*> running in uber mode : <*>
+s59,map <*> reduce <*>
+s6,--------precondition:begin--------
+s60,display ip routing-table all-routes
+s61,display current-configuration
+s62,system-view immediately
+s63,user-interface con <*>
+s64,user-interface con <*>
+s65,user-interface aux <*>
+s66,user-interface vyt <*>
+s67,user-interface vyt <*>
+s68,authentication-mode <*>
+s69,authentication-mode <*>
+s7,--------precondition:end--------
+s70,user privilege level <*>
+s71,user privilege level <*>
+s72,idle-timeout <*>
+s73,screen-length <*>
+s74,screen-length <*>
+s75,W
+s76,W
+s77,delete rui user all
+s78,undo netconf
+s79,undo pki domain default
+s8,mkdir: cannot create directory '<*>': File exists
+s80,undo ssh client
+s81,undo ssh client key-exchange
+s82,undo ssh client hmac
+s83,undo ssh client hmac <*>
+s85,undo ssh user system
+s86,undo ssh user Admin system
+s87,undo ip vpn-instance
+s88,undo ntp-service server
+s89,undo service-template default <*>
+s9,Creating CPTS process.
+s90,undo set neid <*>
+s91,interface Pos <*>
+s92,interface Pos <*>
+s93,Job <*> completed successfully
+s94,Creating <*> data.
