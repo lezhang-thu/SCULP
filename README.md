@@ -17,15 +17,15 @@ pip install -r requirements.txt
 Add your DeepSeek API key and base url by updating `./SCULP/config.py` file
 ```python
 LLM_BASE_MAPPING = {
-    "deepseek-v4-pro": [
-        "deepseek-v4-pro", "https://api.deepseek.com",
+    "deepseek-v4-flash": [
+        "deepseek-v4-flash", "https://api.deepseek.com",
         ""
     ]
 }
 ```
 
 > **Note:** DeepSeek has recently updated its API. The `deepseek-chat` model (formerly **DeepSeek-V3.2**, ~685B parameters) is being deprecated and is now mapped to the *non-thinking* mode of **DeepSeek-V4-Flash** (~284B parameters).  
-> To faithfully reproduce the results reported in the paper, please use **DeepSeek-V4-Pro** instead.
+> To faithfully reproduce the results reported in the paper, please use **DeepSeek-V3.2** via [AutoDL](https://www.autodl.art/docs/DeepSeek-V3.2/).
 
 ### Step 3: Run with example Apache dataset
 ```commandline

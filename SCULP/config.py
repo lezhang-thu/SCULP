@@ -244,8 +244,8 @@ benchmark_settings = {
 }
 
 LLM_BASE_MAPPING = {
-    "deepseek-v4-pro": [
-        "deepseek-v4-pro", "https://api.deepseek.com",
+    "deepseek-v4-flash": [
+        "deepseek-v4-flash", "https://api.deepseek.com",
         ""
     ]
 }
@@ -290,7 +290,7 @@ def common_args():
                         default="before",
                         choices=["add", "no", "before"])
     parser.add_argument('--regex', type=str, default="")
-    parser.add_argument('--llm', type=str, default="deepseek-v4-pro")
+    parser.add_argument('--llm', type=str, default="deepseek-v4-flash")
     parser.add_argument('--model', type=str, default="")
     parser.add_argument('--base_url', type=str, default="")
     parser.add_argument('--api_key', type=str, default="")
